@@ -1,11 +1,11 @@
 package com.student.model;
 
 public class StudentModel {
-	private int id;
-	private String username;
-	private String password;
-	private int sex;
-	private String pcy;
+	private int id;//ID
+	private String username;//名字
+	private String password;//密码
+	private int sex;//性别
+	private String pcy;//简写
 	@Override
 	public int hashCode() {
 		final int prime = 31;
